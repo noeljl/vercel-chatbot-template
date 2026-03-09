@@ -1,0 +1,207 @@
+
+    Directory: C:\Users\noel_\Coding-Projects\vercel-chatbot-template
+
+Mode                 LastWriteTime         Length Na
+                                                  me
+----                 -------------         ------ --
+d----          09/03/2026    19:21                .c
+                                                  ur
+                                                  so
+                                                  r
+d--h-          09/03/2026    19:21                .g
+                                                  it
+d----          09/03/2026    19:21                .g
+                                                  it
+                                                  hu
+                                                  b
+d----          09/03/2026    19:29                .n
+                                                  ex
+                                                  t
+d----          09/03/2026    19:21                .v
+                                                  sc
+                                                  od
+                                                  e
+d----          09/03/2026    19:59                ap
+                                                  p
+d----          09/03/2026    20:03                co
+                                                  mp
+                                                  on
+                                                  en
+                                                  ts
+d----          09/03/2026    19:46                ho
+                                                  ok
+                                                  s
+d----          09/03/2026    19:39                li
+                                                  b
+d----          09/03/2026    19:27                no
+                                                  de
+                                                  _m
+                                                  od
+                                                  ul
+                                                  es
+d----          09/03/2026    19:21                pu
+                                                  bl
+                                                  ic
+d----          09/03/2026    19:21                te
+                                                  st
+                                                  s
+-a---          09/03/2026    19:21            810 .e
+                                                  nv
+                                                  .e
+                                                  xa
+                                                  mp
+                                                  le
+-a---          09/03/2026    19:29            221 .e
+                                                  nv
+                                                  .l
+                                                  oc
+                                                  al
+-a---          09/03/2026    19:21            529 .g
+                                                  it
+                                                  ig
+                                                  no
+                                                  re
+-a---          09/03/2026    19:21           1381 bi
+                                                  om
+                                                  e.
+                                                  js
+                                                  on
+                                                  c
+-a---          09/03/2026    19:21            416 co
+                                                  mp
+                                                  on
+                                                  en
+                                                  ts
+                                                  .j
+                                                  so
+                                                  n
+-a---          09/03/2026    19:21            367 dr
+                                                  iz
+                                                  zl
+                                                  e.
+                                                  co
+                                                  nf
+                                                  ig
+                                                  .t
+                                                  s
+-a---          09/03/2026    19:21            152 in
+                                                  st
+                                                  ru
+                                                  me
+                                                  nt
+                                                  at
+                                                  io
+                                                  n-
+                                                  cl
+                                                  ie
+                                                  nt
+                                                  .t
+                                                  s
+-a---          09/03/2026    19:21            126 in
+                                                  st
+                                                  ru
+                                                  me
+                                                  nt
+                                                  at
+                                                  io
+                                                  n.
+                                                  ts
+-a---          09/03/2026    19:21            564 LI
+                                                  CE
+                                                  NS
+                                                  E
+-a---          09/03/2026    20:11              0 li
+                                                  st
+                                                  .t
+                                                  xt
+-a---          09/03/2026    19:21            257 ne
+                                                  xt
+                                                  -e
+                                                  nv
+                                                  .d
+                                                  .t
+                                                  s
+-a---          09/03/2026    19:21            479 ne
+                                                  xt
+                                                  .c
+                                                  on
+                                                  fi
+                                                  g.
+                                                  ts
+-a---          09/03/2026    19:54         387424 pa
+                                                  ck
+                                                  ag
+                                                  e-
+                                                  lo
+                                                  ck
+                                                  .j
+                                                  so
+                                                  n
+-a---          09/03/2026    19:54           4101 pa
+                                                  ck
+                                                  ag
+                                                  e.
+                                                  js
+                                                  on
+-a---          09/03/2026    19:21           2622 pl
+                                                  ay
+                                                  wr
+                                                  ig
+                                                  ht
+                                                  .c
+                                                  on
+                                                  fi
+                                                  g.
+                                                  ts
+-a---          09/03/2026    19:21            154 po
+                                                  st
+                                                  cs
+                                                  s.
+                                                  co
+                                                  nf
+                                                  ig
+                                                  .m
+                                                  js
+-a---          09/03/2026    19:21           1630 pr
+                                                  ox
+                                                  y.
+                                                  ts
+-a---          09/03/2026    19:21           3602 RE
+                                                  AD
+                                                  ME
+                                                  .m
+                                                  d
+-a---          09/03/2026    19:21            737 ts
+                                                  co
+                                                  nf
+                                                  ig
+                                                  .j
+                                                  so
+                                                  n
+-a---          09/03/2026    19:21         490145 ts
+                                                  co
+                                                  nf
+                                                  ig
+                                                  .t
+                                                  sb
+                                                  ui
+                                                  ld
+                                                  in
+                                                  fo
+-a---          09/03/2026    19:21            349 ve
+                                                  rc
+                                                  el
+                                                  -t
+                                                  em
+                                                  pl
+                                                  at
+                                                  e.
+                                                  js
+                                                  on
+-a---          09/03/2026    19:21             31 ve
+                                                  rc
+                                                  el
+                                                  .j
+                                                  so
+                                                  n
+

@@ -1,8 +1,7 @@
 import { put } from "@vercel/blob";
 import { NextResponse } from "next/server";
 import { z } from "zod";
-
-import { auth } from "@/app/(auth)/auth";
+import { GUEST_USER_ID } from "@/lib/db/queries";
 
 // Use Blob instead of File since File is not available in Node.js environment
 const FileSchema = z.object({
@@ -18,11 +17,7 @@ const FileSchema = z.object({
 });
 
 export async function POST(request: Request) {
-  const session = await auth();
-
-  if (!session) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  }
+  const userId = GUEST_USER_ID;
 
   if (request.body === null) {
     return new Response("Request body is empty", { status: 400 });
@@ -47,11 +42,12 @@ export async function POST(request: Request) {
     }
 
     // Get filename from formData since Blob doesn't have name property
-    const filename = (formData.get("file") as File).name;
+    const fileObject = formData.get("file") as File;
+    const filename = fileObject.name;
     const fileBuffer = await file.arrayBuffer();
 
     try {
-      const data = await put(`${filename}`, fileBuffer, {
+      const data = await put(filename, fileBuffer, {
         access: "public",
       });
 

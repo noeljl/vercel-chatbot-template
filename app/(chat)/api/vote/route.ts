@@ -1,5 +1,4 @@
-import { auth } from "@/app/(auth)/auth";
-import { getChatById, getVotesByChatId, voteMessage } from "@/lib/db/queries";
+import { ensureUserExists, voteMessage, GUEST_USER_ID, getChatById, getVotesByChatId } from "@/lib/db/queries";
 import { ChatbotError } from "@/lib/errors";
 
 export async function GET(request: Request) {
@@ -13,11 +12,8 @@ export async function GET(request: Request) {
     ).toResponse();
   }
 
-  const session = await auth();
-
-  if (!session?.user) {
-    return new ChatbotError("unauthorized:vote").toResponse();
-  }
+  const userId = GUEST_USER_ID;
+  await ensureUserExists(userId);
 
   const chat = await getChatById({ id: chatId });
 
@@ -25,7 +21,7 @@ export async function GET(request: Request) {
     return new ChatbotError("not_found:chat").toResponse();
   }
 
-  if (chat.userId !== session.user.id) {
+  if (chat.userId !== userId) {
     return new ChatbotError("forbidden:vote").toResponse();
   }
 
@@ -49,11 +45,8 @@ export async function PATCH(request: Request) {
     ).toResponse();
   }
 
-  const session = await auth();
-
-  if (!session?.user) {
-    return new ChatbotError("unauthorized:vote").toResponse();
-  }
+  const userId = GUEST_USER_ID;
+  await ensureUserExists(userId);
 
   const chat = await getChatById({ id: chatId });
 
@@ -61,7 +54,7 @@ export async function PATCH(request: Request) {
     return new ChatbotError("not_found:vote").toResponse();
   }
 
-  if (chat.userId !== session.user.id) {
+  if (chat.userId !== userId) {
     return new ChatbotError("forbidden:vote").toResponse();
   }
 
